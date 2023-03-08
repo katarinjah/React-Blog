@@ -19,10 +19,10 @@ export const Posts = () => {
     let title = lorem.generateWords(3);
     let intro = lorem.generateSentences(2);
     let post = (
-      <div class="row post mx-auto">
+      <div className="row post mx-auto">
         <div className="col">
-          <h4 class="title">{title}</h4>
-          <p class="intro">{intro}</p>
+          <h4 className="title">{title}</h4>
+          <p className="intro">{intro}</p>
         </div>
       </div>
     );
